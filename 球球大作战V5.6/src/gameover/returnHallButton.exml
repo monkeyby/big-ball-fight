@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="returnHallButton" width="175" height="54" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="replay_png" x="0" y="0"/>
+</e:Skin>

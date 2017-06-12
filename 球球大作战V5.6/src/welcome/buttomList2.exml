@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="buttomList2" width="34" height="240" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="buttomlist_png" y="0"/>
+</e:Skin>

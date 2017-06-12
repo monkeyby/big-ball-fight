@@ -1,0 +1,9 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "c:\\Users\\Wangnan05\\Desktop\\球球大作战V5.4\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true
+    }
+}

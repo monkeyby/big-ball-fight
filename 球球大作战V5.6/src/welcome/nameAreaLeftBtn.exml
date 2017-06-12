@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="nameAreaLeftBtn" width="236" height="38" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="nameLeftBtn" width="236" height="38" x="0" y="0" source="name_01_png" anchorOffsetX="0"/>
+	<e:Label id="nameLabel" text="王大帅" x="8" anchorOffsetX="0" verticalCenter="0" width="175" height="26" size="26"/>
+</e:Skin>

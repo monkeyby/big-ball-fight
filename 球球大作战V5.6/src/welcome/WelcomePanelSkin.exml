@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WelcomePanelSkin" width="800" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:components="components.*">
+	<e:Rect width="800" height="480" x="0" y="0"/>
+	<e:Image id="gameStartBg" width="800" height="480" x="0" y="0" source="qiu_png"/>
+	<e:Button id="gameStartBtn" label="" x="249" y="277" skinName="startBtn" enabled="true"/>
+	<e:Button id="refreshBtn" label="Button" x="487" y="144" skinName="nameAreaRightBtn" anchorOffsetY="0" height="36"/>
+	<e:Image id="nameInputBg" width="236" height="38" x="251" y="144" source="name_01_png"/>
+	<e:Label id="gameName" text="leo" x="263" height="24" size="24" anchorOffsetX="0" width="212" y="151"/>
+	<e:Button id="topList" label="Button" x="0" y="0" width="34" height="240" anchorOffsetX="0" skinName="topList2"/>
+	<e:Button id="buttomList" label="Button" x="0" y="240" skinName="buttomList"/>
+	<e:Button id="ListButton" label="Button" x="248" y="213" width="276" height="36" skinName="ListButtonSkin"/>
+	<e:Label id="displayText" text="中国区 7MS(优秀)" x="260" y="220" size="20" width="220" fontFamily="YouYuan"/>
+<e:Group id="listGroup"  xmlns:e="http://ns.egret.com/eui" width="276" height="144" >
+    <e:Scroller skinName="skins.ScrollerSkin" width="276" x="0" height="144">
+        <e:List id="list">
+            <e:itemRendererSkinName>
+                <e:Skin states="up,down,disabled" height="36">
+                    <e:Image width="276" height="36" scale9Grid="1,3,8,8"
+                             source="gameareabg2_png"
+                             source.down="gameareabg3_png"/>
+                    <e:Label size="20" fontFamily="YouYuan" text="{data.label}"
+                             textColor="0xffffff" textColor.down="0xfffffff" left="12"
+                             verticalCenter="0"/>
+                </e:Skin>
+            </e:itemRendererSkinName>
+            <e:ArrayCollection>
+                <e:Array>
+                    <e:Object label="中国区 7MS(优秀)" />
+                    <e:Object label="东亚区 21MS(良好)" />
+                    <e:Object label="北美 47MS(良好)"/>
+                    <e:Object label="欧洲区 268MS(较差)"/>
+                </e:Array>
+            </e:ArrayCollection>
+        </e:List>
+    </e:Scroller>
+</e:Group>
+</e:Skin>

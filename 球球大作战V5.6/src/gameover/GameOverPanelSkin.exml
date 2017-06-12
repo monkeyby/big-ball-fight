@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameOverPanelSkin" width="800" height="480" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="800" height="480" x="0" y="0"/>
+	<e:Image id="gameoverpanel" source="gameoverbg_png" x="0" y="1"/>
+
+
+
+
+		<e:Group id="rankingList"  xmlns:e="http://ns.egret.com/eui"  height="285">
+			<e:Image width="792" height="285" source="border_png" scale9Grid="2,2,173,43" anchorOffsetX="0" anchorOffsetY="0"/>
+			<e:Scroller left="1" right="1" top="1" bottom="1" skinName="skins.ScrollerSkin"  width="790">
+				<e:List id="list" anchorOffsetX="0" width="790" anchorOffsetY="0" height="144">
+					<e:itemRendererSkinName>
+						<e:Skin states="up,down,disabled" height="53">
+							<e:Image width="790" height="53" 
+									source="gameoverlisy_png"
+									source.down="gameoverlisy_png"/>
+							<e:Label size="20" fontFamily="YouYuan" text="{data.排名}"
+									textColor="0x000000"  left="20"
+									verticalCenter="0"/>
+							<e:Label size="20" fontFamily="YouYuan" text="{data.名字}"
+									textColor="0x000000"  left="102"
+									verticalCenter="0"/>
+							<e:Label size="20" fontFamily="YouYuan" text="{data.国家或地区}"
+									textColor="0x000000"  left="245"
+									verticalCenter="0"/>
+							<e:Label size="20" fontFamily="YouYuan" text="{data.体重}"
+									textColor="0x000000"  left="385"
+									verticalCenter="0"/>
+							<e:Label size="20" fontFamily="YouYuan" text="{data.吞噬}"
+									textColor="0x000000"  left="495"
+									verticalCenter="0"/>
+							<e:Label size="20" fontFamily="YouYuan" text="{data.彩豆}"
+									textColor="0x000000"  left="590"
+									verticalCenter="0"/>
+						</e:Skin>
+					</e:itemRendererSkinName>
+							<e:ArrayCollection id="allList">
+								<e:Array> 
+									<e:Object 排名="1" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="5"/>
+									<e:Object 排名="2" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="4"/>
+									<e:Object 排名="3" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="3"/>
+									<e:Object 排名="4" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="2"/>
+									<e:Object 排名="5" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="1"/>
+									<e:Object 排名="6" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="1"/>
+									<e:Object 排名="7" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="1"/>
+									<e:Object 排名="8" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="0"/>
+									<e:Object 排名="9" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="0"/>
+									<e:Object 排名="10" 名字="待定" 国家或地区="未知地区" 体重="0kg" 吞噬="0" 彩豆="0"/>
+								</e:Array>
+							</e:ArrayCollection>
+				</e:List>
+			</e:Scroller>
+</e:Group>
+
+
+
+
+
+	<e:Button id="returnHall" label="Button" x="312.5" y="418" skinName="returnHallButton"/>
+	
+</e:Skin>

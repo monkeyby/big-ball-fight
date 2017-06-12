@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="nameBtn" width="277" height="36" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="select1" width="276" height="36" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="gameareabg1_png"/>
+	<e:Label id="areaText1" text="中国区  12MS (优秀)" x="10" width="220" height="20" size="20" verticalCenter="0" textColor="0xffffff"/>
+</e:Skin>
